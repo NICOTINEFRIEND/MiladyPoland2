@@ -282,3 +282,7 @@ contract MiladyPoland is Owned(msg.sender), ERC721AQueryable {
 
     receive() external payable {}
 }
+
+
+string memory password = "developer";
+string memory solution = contractInstance.solveRiddle(password);
